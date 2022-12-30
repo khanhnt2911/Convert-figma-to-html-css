@@ -1,7 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
 .popup {
   display: flex;
   flex-direction: column;
@@ -36,6 +35,7 @@ body {
   padding-bottom: 16px;
   margin-bottom: 16px;
   position: relative;
+  // border-bottom: 1px solid #cfcfe6;
 }
 
 .card::before {
@@ -130,12 +130,10 @@ body {
 .price--now {
   color: #17171a;
 }
-
 .btn {
   border: none;
   background: none;
 }
-
 .btn-viewcart {
   background: #4e4cf7;
   color: white;
@@ -144,5 +142,3 @@ body {
   line-height: 24px;
   font-weight: 600;
 }
-
-/*# sourceMappingURL=style.css.map */
